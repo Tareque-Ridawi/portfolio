@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tick-Cross JavaScript (v1.0)</title>
+			<meta name="description" content="Play the tick-cross (Tick Tack Toe) game on your browser window without wasting paper as many times as you can." />
+			<meta charset="utf-8">
+			<meta name="viewport" content="initial-scale=1.0, width=device-width,user-scalable=no">
+			<link rel="stylesheet" href="./mygame.css" type="text/css">
+			<meta property="og:image" content="./img/og.png"/>
+            <meta property="og:image:type" content="image/jpeg"/>
+            <meta name="google-site-verification" content="KcyX02rusieiQi0XczSb3dieCd337j-sLs22MCXRFOA" />
+	</head>
+		<body id="main">
+			<div id="startup"> 
+				<img src="./img/vmlogo.svg" id="startuplogo">
+				<p id="st" align="center"> Venjex Games</p>
+            </div>
+
+            <div id="body">
+            <h1 id="title"> Tick-Cross JavaScript (v1.0) </h1></br></br>
+            <div id="welcome">Welcome to Tick-Cross JavaScript. Enjoy playing this game on your browser without wasting paper. Make less litter, Save the Environment. </div></p>
+            <div id="tips"> How to play :This is a offline multiplayer game. Tap any box to start the game. The first one to tap will get the tick (✔️). After the first player taps it will be the second player's turn. The second player will get cross (✖️). After the second player again it will be first player's turn and the game will go on like this till anyone can match three boxes vertically, horizentally, top left to bottom right or top right to bottom left. The one who can match like this first wins the game. </p> </div>
+            <p align="center"><div id="turn">&nbsp &nbsp Player 1's turn &nbsp &nbsp</div> &nbsp &nbsp &nbsp &nbsp <div id="reset" onclick="reset()">&nbsp&nbsp&nbspReset&nbsp&nbsp&nbsp</div></p>
+            
+            <div id="boxcontainer"> <p align="center">
+            	<button id="choose1" class="choose" onclick="task1();check()">M</button>
+                <button id="choose2" class="choose" onclick="task2();check()">M</button>
+                <button id="choose3" class="choose" onclick="task3();check()">M</button></br>
+                <button id="choose4" class="choose" onclick="task4();check()">M</button>
+                <button id="choose5" class="choose" onclick="task5();check()">M</button>
+                <button id="choose6" class="choose" onclick="task6();check()">M</button></br>
+                <button id="choose7" class="choose" onclick="task7();check()">M</button>
+                <button id="choose8" class="choose" onclick="task8();check()">M</button>
+                <button id="choose9" class="choose" onclick="task9();check()">M</button>
+            
+            </div></p>
+            <div id="info">Play with computer mode is not yet available in this vesion and might be added in the future. </div>
+            <p align="center"> <img src="./img/vmlogo.svg" id="end"></p></br>
+            <p id="foot" align="center"> &copy Venjex Games </p></div>
+			<script src="./mygame.js"></script>
+		</body>
+</html>

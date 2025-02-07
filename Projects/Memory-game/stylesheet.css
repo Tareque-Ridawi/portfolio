@@ -1,0 +1,86 @@
+#body{
+	background-color:#EAD7E2;
+	margin:0;
+}
+#gamebody{
+	display:none;
+}
+#gametitle{
+	font-family:times;
+	font-size:16px;
+	color:#4C0A5D;
+	top:0;
+	right:0;
+	left:0;
+	background-color:#EEA9FF;
+	box-shadow:0 0 6px #4C0A5D;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+#cards-container{
+	border:3px solid #4C0A5D;
+	border-radius:5px;
+	box-shadow:0 0 8px #4C0A5D;
+	margin-right:2px;
+	margin-left:2px;
+	margin-bottom:5px;
+}
+.cards{
+	width:45px;
+	margin:5px;
+	margin-bottom:8px;
+	border:2px solid #9F3D00;
+	border-radius:5px;
+	box-shadow:0 0 4px #4C0A5D;
+	transition: 0.5s;
+    transform-style: preserve-3d;
+	position: relative;
+}
+#score{
+	font-family:Times;
+	font-size:10px;
+	background-color:#4C0A5D;
+	color:#EEA9FF;
+	border-radius:3px;
+	box-shadow:0 0 8px #4C0A5D;
+	float:right;
+	padding:3px;
+	margin-bottom:5px;
+	margin-right:3px;
+}
+#rules{
+	color:#4C0A5D;
+	font-family:Times;
+	font-size:10px;
+	margin:0px;
+	padding:3px;
+	padding-top:0px;
+}
+#logomain{
+	height:70px;
+	box-shadow:0 0 8px #4C0A5D;
+}
+#introshow{
+	background-color:white;
+	border-radius:4px;
+	font-family:monospace;
+	size:8px;
+	position:absolute;
+	width:180px;
+	height:180px;
+	animation-name:startup;
+    animation-duration:3500ms;
+    right:100px;
+    top:100px;
+}
+@keyframes startup{
+	0%{
+      opacity:0%;
+	}
+	100%{
+       opacity:100%;
+	}
+}
+#intlogo{
+	height:130px;
+}

@@ -1,0 +1,162 @@
+#main{font-family:Times}
+#startup{
+position:fixed;
+top:25%;
+right:25%;
+border:2px solid gold;
+color:gold;
+font-family:times;
+font-size:25px;
+animation-name:startup;
+animation-duration:3500ms;
+display:none;
+}
+#body{display:block;}
+#startuplogo{
+width:125%;
+}
+@keyframes startup{
+	0%{opacity:0%;
+	     background-color:black;
+	}
+	50%{opacity:100%;
+	   background-color:gold;
+	}
+	100%{opacity:100%;
+	   background-color:white;
+	}
+}
+#boxcontainer{
+	background-color:black;
+	border:5px solid teal;
+	border-radius:3px;
+	padding:6px;
+	margin:3px;
+	box-shadow:0 0 12px teal;
+	line-height:0;
+	display:flex;
+	justify-content: center;
+	postion:relative;
+}
+.holder{
+	display:inline-block;
+	margin:2px;
+	outline:none;
+	margin-left:0px;
+	margin-right:1px;
+	height:60px;
+	width:60px;
+	padding:0px;
+	border:0;
+	overflow:hidden;
+}
+.tile{
+	background-color:lightgreen;
+	border:3px solid teal;
+	border-radius:6px;
+	height:60px;
+	width:60px;
+	box-shadow:inset 0 0 6px darkgreen,0 0 4px lightgreen;
+	float:middle;
+	font-size:25px;
+	color:lightgreen;
+	outline:none;
+	font-weight:bold;
+	font-family:times;
+	display:inline-block;
+	position:absolute;
+	overflow:hidden;
+	margine-top:0px;
+	margine-left:0px;
+}
+#title{
+	background-color:black;
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	color:darkgreen;
+	font-size:25px;
+	margin:0px;
+	box-shadow:0 0 12px darkgreen;
+}
+#tips{
+	font-size:10px;
+	color:darkgreen;
+}
+#note{
+	font-size:10px;
+	color:darkred;
+}
+#score{
+	border:3px solid gold;
+	border-radius:4px;
+	box-shadow:0 0 5px gold;
+	color:gold;
+	font-size:15px;
+	display:inline-block;
+}
+#amount{
+    display:inline-block;
+    outline:none;
+    border:none;
+}
+#addition{
+   display:inline-block;
+   font-size:12px;
+   color:darkgreen;
+   background-color:lightgreen;
+   border-radius:3px;
+   margin:2px;
+}
+#reset{
+	background-color:red;
+	box-shadow:0 0 5px red;
+	color:white;
+	font-size:15px;
+	display:inline-block;
+}
+#end{
+	height:65px;
+}
+#confirm{
+    display:none;
+    color:white;
+    font-size:30px;
+}
+#newgame{
+	display:inline-block;
+	background-color:darkred;
+	color:white;
+	box-shadow :0 0 8px orange;
+	font-family:times;
+	border-radius:3px;
+	padding:3px;
+	margin:3px;
+	outline:none;
+	font-size:12px;
+}
+#continue{
+	display:inline-block;
+	background-color:darkgreen;
+	color:white;
+	box-shadow :0 0 8px lightgreen;
+	font-family:times;
+	border-radius:3px;
+	padding:3px;
+	margin:3px;
+	outline:none;
+	font-size:12px;
+}
+#foot{
+	color:black;
+	font-size:10px;
+	margin:0px;
+	border:0px;
+}
+.inline-block{
+	display:inline-block;
+}
+#xxxi{
+	display:none;
+}

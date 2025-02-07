@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>2048 JavaScript</title>
+			<meta name="description" content="Play the tick-cross (Tick Tack Toe) game on your browser window without wasting paper as many times as you can." />
+			<meta charset="utf-8">
+			<meta name="viewport" content="initial-scale=1.0, width=device-width,user-scalable=no">
+			<meta name="theme-color" content="darkgreen" />
+			<link rel="stylesheet" href="./stylesheet.css" type="text/css">
+			<script src="../jquery-3.6.0.min.js"></script>
+			<meta property="og:image" content="./img/og.png"/>
+            <meta property="og:image:type" content="image/jpeg"/>
+	</head>
+		<body id="main">
+			<div id="startup"> 
+				<img src="./img/vmlogo.svg" id="startuplogo">
+				<p id="st" align="center"> Venjex Games</p>
+            </div>
+
+            <div id="body">
+            <h1 id="title"> 2048 JavaScript  </h1></br></br>
+            <div id="tips"> <u>How to play </u> : Swipe the Screen in any Direction inside the black box below inorder to move the tiles. Two tiles will merge if they have same number inside. See if you match 2048 like this.  </p> </div>
+            <div id="note"><u>Note  </u> : Optimized for Touch Devices only.</div>
+            <p align="center"><div id="score">&nbsp &nbsp Score:<div id="amount">0</div><div id="addition">&nbsp &nbsp &nbsp</div> &nbsp &nbsp</div> &nbsp &nbsp &nbsp &nbsp <div id="reset" onclick="reset()">&nbsp&nbsp&nbspReset&nbsp&nbsp&nbsp</div></p>
+            <p align="center">
+            <div id="boxcontainer"> <div>
+               <div class="holder"> <button id="tile1"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile2"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile3"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile4"  class="tile">0</button></div></br>
+               <div class="holder"> <button id="tile5"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile6"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile7"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile8"  class="tile">0</button></div></br>
+               <div class="holder"> <button id="tile9"  class="tile">0</button></div>
+               <div class="holder"> <button id="tile10" class="tile">0</button></div>
+               <div class="holder"> <button id="tile11" class="tile">0</button></div>
+               <div class="holder"> <button id="tile12" class="tile">0</button></div></br>
+               <div class="holder"> <button id="tile13" class="tile">0</button></div>
+               <div class="holder"> <button id="tile14" class="tile">0</button></div>
+               <div class="holder"> <button id="tile15" class="tile">0</button></div>
+               <div class="holder"> <button id="tile16" class="tile">0</button></div>
+            </div>
+            <div id="confirm"><div class="inline-block" id="xxx">You Won the Game... </div><div id="xxxi">Game Over!  </div></p> <p align="center"> <button id="newgame" onclick="reset();cont();"> Play Again</button> &nbsp&nbsp&nbsp <button id="continue" onclick="cont()">Keep Playing</button></p>         </div>
+            </div></p>
+            <hr color="black" size="3">
+            <p align="center"> <img src="./img/vmlogo.svg" id="end"></p></br>
+            <div id="foot">“2048 JavaScript” is a derivative of “2048” by Gabriele Cirulli. The Concept of this game is same as 2048. The code of this game is property of “Venjex Games” and is not made following 2048 or it's any other derivative.</div>
+            <script src="./js/script.js"></script>
+			<script src="./js/script1.js"></script>
+			<script src="./js/mergeTiles.js"></script>
+			<script src="./js/color.js"></script>
+		</body>
+</html>
